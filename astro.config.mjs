@@ -21,8 +21,8 @@ export default defineConfig({
       noExternal: ['swiper', 'leaflet']
     }
   },
-  site: 'https://hellotham.github.io',
-  base: '/hello-astro',
+  site: 'https://13bmartens.github.io',
+  base: '/test-blog',
   integrations: [tailwind(), sitemap(), mdx(), alpinejs(), robotsTxt(), markdoc()],
   experimental: {
     assets: true
